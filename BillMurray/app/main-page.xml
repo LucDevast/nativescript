@@ -1,0 +1,19 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" loaded="pageLoaded">
+  <TabView>
+    <TabView.items>
+      <TabViewItem title="Quotes">
+        <TabViewItem.view>
+          <StackLayout class="tab-content" id="layout">
+            <Label text="{{ quote }}" class="title" textWrap="true" />
+            <Image src="{{ image }}" />
+          </StackLayout>
+        </TabViewItem.view>
+      </TabViewItem>
+      <TabViewItem title="Chart">
+        <TabViewItem.view>
+          <Label text="Chart Placeholder" class="title" />
+        </TabViewItem.view>
+      </TabViewItem>
+    </TabView.items>
+  </TabView>
+</Page>
